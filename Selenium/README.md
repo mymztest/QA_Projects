@@ -1,1 +1,1 @@
-# RestAssured-API-Automation
+# QA Automaiton Projects
