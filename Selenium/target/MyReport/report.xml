@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="15.937" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Login to Swag app" name="Verify login to Swag app - Example #1.1" time="3.654">
+<system-out><![CDATA[
+Given I am on swag app......................................................passed
+When I enter standard_user and secret_sauce.................................passed
+And I click on Login button.................................................passed
+Then I am on the main Page..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Swag app" name="Verify negative scenario for login to Swag app - Example #1.1" time="3.166">
+<system-out><![CDATA[
+Given I am on swag app......................................................passed
+When I enter invalid and invalid............................................passed
+And I click on Login button.................................................passed
+Then Verify the error massage Epic sadface: Username and password do not match any user in this service.passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Swag app" name="Verify negative scenario for login to Swag app - Example #1.2" time="2.914">
+<system-out><![CDATA[
+Given I am on swag app......................................................passed
+When I enter  and secret_sauce..............................................passed
+And I click on Login button.................................................passed
+Then Verify the error massage Epic sadface: Username is required............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Swag app" name="Verify negative scenario for login to Swag app - Example #1.3" time="2.919">
+<system-out><![CDATA[
+Given I am on swag app......................................................passed
+When I enter standard_user and .............................................passed
+And I click on Login button.................................................passed
+Then Verify the error massage Epic sadface: Password is required............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login to Swag app" name="Verify negative scenario for login to Swag app - Example #1.4" time="3.112">
+<system-out><![CDATA[
+Given I am on swag app......................................................passed
+When I enter  and ..........................................................passed
+And I click on Login button.................................................passed
+Then Verify the error massage Epic sadface: Username is required............passed
+]]></system-out>
+</testcase>
+</testsuite>
