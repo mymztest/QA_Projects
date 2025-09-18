@@ -3,7 +3,7 @@ from pages.login_page import LoginPage
 from conftest import bdd_results  # import the global list
 from playwright.sync_api import Page
 from playwright.sync_api import sync_playwright
-import allure
+
 
 scenarios('../features/login.feature')
 

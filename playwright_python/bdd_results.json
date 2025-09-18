@@ -1,0 +1,14 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expected_result": "Swag Labs",
+    "passed": true
+  },
+  {
+    "username": "locked_user",
+    "password": "secret_sauce",
+    "expected_result": "Epic sadface: Username and password do not match any user in this service",
+    "passed": true
+  }
+]
